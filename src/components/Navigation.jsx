@@ -1,4 +1,5 @@
 import Layout from './Layout';
+import LogoSantiagoSVG from './../../public/logo_light.svg';
 
 const Navigation = () => {
 
@@ -8,7 +9,7 @@ const Navigation = () => {
         <div className="navigation-content">
           <div className="img-container">
             <a href="/">
-              <img src="./../../public/logo_light.svg" alt="" className="logo" />
+              <img src={LogoSantiagoSVG} alt="" className="logo" />
             </a>
           </div>
           <ul className='navigation-items'>
