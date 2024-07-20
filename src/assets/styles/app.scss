@@ -22,3 +22,19 @@ body {
     overflow: hidden;
   }
 }
+
+.rfm-marquee-container {
+  position: fixed !important;
+  transform: rotate(-45deg) !important;
+  width: 32rem !important;
+  bottom: 5rem;
+  right: -8rem;
+  padding: 0.8rem;
+  background: $light;
+  color: $dark;
+  font-size: 1.6rem;
+
+  .marquee-item {
+    margin-right: 3rem;
+  }
+}

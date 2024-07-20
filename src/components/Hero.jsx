@@ -1,11 +1,10 @@
 import Layout from './Layout';
-import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
     <Layout id="hero">
       <div className="hero-content">
-        <h1 className="hero-title">Santiago Salazar</h1>
+        <img src="/public/logo_santiago_salazar.svg" alt="" className="my-name" />
         <p className="hero-description">
           Frontend Developer apasionado por crear interfaces intuitivas y de alto rendimiento.<br />
           <span className="hero-strong">Disponible para proyectos y contrataciones</span>.
@@ -16,18 +15,6 @@ const Hero = () => {
           <button className="hero-button contact-button" aria-label="Conectemos">Conectemos</button>
         </div>
       </div>
-
-      <Marquee>
-        <p className='marquee-item'>
-          Disponible para contrataciones y proyectos
-        </p>
-        <p className='marquee-item'>
-          Disponible para contrataciones y proyectos
-        </p>
-        <p className='marquee-item'>
-          Disponible para contrataciones y proyectos
-        </p>
-      </Marquee>
     </Layout>
   );
 };

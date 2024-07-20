@@ -5,8 +5,9 @@
   text-align: center;
   padding: 1rem;
 
-  .hero-title {
-    font-size: clamp(36px, 5vw, 120px);
+  .my-name {
+    width: 100%;
+    max-width: 800px;
   }
   
   .hero-description {
@@ -53,19 +54,3 @@
     }
   }
 }  
-
-.rfm-marquee-container {
-  position: absolute !important;
-  transform: rotate(-45deg) !important;
-  width: 32rem !important;
-  bottom: 5rem;
-  right: -8rem;
-  padding: 1rem;
-  background: white;
-  color: black;
-  font-size: 2rem;
-
-  .marquee-item {
-    margin-right: 3rem;
-  }
-}

@@ -1,4 +1,3 @@
-// src/layouts/MainLayout.js
 const Layout = ({ children, ...props }) => {
   return (
     <section className="layout" {...props}>
