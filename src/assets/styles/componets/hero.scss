@@ -1,0 +1,72 @@
+.hero-content {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+  padding: 1rem;
+
+  .hero-title {
+    font-size: clamp(36px, 5vw, 120px);
+  }
+  
+  .hero-description {
+    font-size: clamp(14px, 1vw, 18px);
+    margin-bottom: 2rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    .hero-button {
+      font-size: clamp(18px, 1rem, 20px);
+      min-width: 8rem;
+      padding: 0.6rem 2rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &.portfolio-button {
+        background: $light;
+        color: $dark;
+        border: 1px solid $dark;
+
+        &:hover {
+          background: $dark;
+          color: $light;
+          border: 1px solid $light;
+        }
+      }
+      
+      &.contact-button {
+        background: $dark;
+        color: $light;
+        border: 1px solid $light;
+
+        &:hover {
+          background: $light;
+          color: $dark;
+        }
+      }
+    }
+  }
+
+}  
+
+.rfm-marquee-container {
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 32rem;
+  bottom: 5rem;
+  right: -8rem;
+  padding: 1rem;
+  background: white;
+  color: black;
+  font-size: 2rem;
+
+  .marquee-item {
+    margin-right: 3rem;
+  }
+}
