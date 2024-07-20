@@ -32,6 +32,10 @@
         gap: 2rem;
         width: 33%;
 
+        @media (width < 1024px) {
+          display: none;
+        }
+
         .nav-link {
           text-decoration: none;
           color: $dark;
@@ -49,6 +53,10 @@
         gap: 2rem;
         display: flex;
         justify-content: flex-end;
+
+        @media (width < 1024px) {
+          display: none;
+        }
         
         .nav-link {
           text-decoration: none;
