@@ -52,13 +52,12 @@
       }
     }
   }
-
 }  
 
 .rfm-marquee-container {
-  position: absolute;
-  transform: rotate(-45deg);
-  width: 32rem;
+  position: absolute !important;
+  transform: rotate(-45deg) !important;
+  width: 32rem !important;
   bottom: 5rem;
   right: -8rem;
   padding: 1rem;
